@@ -1,0 +1,27 @@
+.grid{
+    position: fixed;
+    color: black;
+    list-style: none;
+    margin-top: 7%;
+    margin-left: 10%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 12% 12% 12% 12% 12%;
+    grid-template-rows: 200% 200% 200% 200% 200%;
+    gap: 5% 5%;
+    width: 100%;
+}
+
+.square{
+    border: none;
+}
+
+.facebook{
+    background-image: url(/images/TargetOne.png);
+    cursor: url(https://cur.cursors-4u.net/others/oth-1/oth4.cur), auto !important;
+    background-repeat: no-repeat;
+    background-size: 80% 100%;
+}
+
+
+

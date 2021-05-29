@@ -1,0 +1,28 @@
+.grid{
+    color: black;
+    padding: 0;
+    margin-top: 20%;
+    margin-left: 1%;
+    display: inline-flex;
+    grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    gap: 3% 1%;
+    width: 100%;
+}
+
+.square{
+    padding:10%;
+    width: 60%;
+}
+
+.confidence{
+    background-image: url(/images/TargetTwo.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    cursor: pointer;
+}
+
+
+
+
+
