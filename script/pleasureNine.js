@@ -42,7 +42,7 @@ function countDown() {
     if (currentTime == 0) {
       clearInterval(countDownTimerId)
       clearInterval(timerId)
-      alert('We are sorry to inform you that your time is out. If numbers make people happy, yours is: ' + result)
+      alert('If numbers make people happy, yours is: ' + result)
     }
    
    }

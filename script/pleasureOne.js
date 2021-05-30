@@ -42,7 +42,7 @@ function countDown() {
     if (currentTime == 0) {
       clearInterval(countDownTimerId)
       clearInterval(timerId)
-      alert('GAME OVER! Your final score is ' + result)
+      alert('There is no time left to whack Facebook. Despite your score of: ' + result + ' points, Facebook still exists.')
     }
    
    }

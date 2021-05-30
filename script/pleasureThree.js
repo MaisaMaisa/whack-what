@@ -5,8 +5,6 @@ const score = document.querySelector('#score')
 
 let result = 0
 let hitPosition
-// let currentTime = 60
-// let timeId = null
 
 function areyousureFunction() {
     alert("Are you sure you want to try and whack Eczema?");
@@ -38,17 +36,3 @@ function moveEczema() {
 }
 
 moveEczema()
-
-// function countDown() {
-//     currentTime--
-//     timeLeft.textContent = currentTime
-   
-//     if (currentTime == 0) {
-//       clearInterval(countDownTimerId)
-//       clearInterval(timerId)
-//       alert('GAME OVER! Your final score is ' + result)
-//     }
-   
-//    }
-   
-// let countDownTimerId = setInterval(countDown, 1000)

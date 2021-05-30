@@ -3,12 +3,11 @@
     color: black;
     list-style: none;
     padding: 0;
-    margin-top: 5%;
     margin-left: 15%;
     display: grid;
-    grid-template-columns: 7% 7% 7% 7% 7% 7% 7% 7%;
-    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px 70px 50px;
-    gap: 3% 1%;
+    grid-template-columns: 7% 7% 7% 7% 7% 7% 7%;
+    grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px;
+    gap: 1% 1%;
     width: 100%;
 
     transform: rotateX(61deg)
@@ -22,7 +21,6 @@
 .architecture{
     background-color: black;
     cursor: pointer;
-    visibility: visible;
 }
 
 

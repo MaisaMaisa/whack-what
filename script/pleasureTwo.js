@@ -42,7 +42,7 @@ function countDown() {
     if (currentTime == 0) {
       clearInterval(countDownTimerId)
       clearInterval(timerId)
-      alert('GAME OVER! Your final score is ' + result)
+      alert('Time is out Miss Kiss. Smiles caught: ' + result)
     }
    
    }

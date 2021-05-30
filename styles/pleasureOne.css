@@ -1,5 +1,4 @@
 .grid{
-    position: fixed;
     color: black;
     list-style: none;
     margin-top: 7%;
@@ -7,13 +6,9 @@
     padding: 0;
     display: grid;
     grid-template-columns: 12% 12% 12% 12% 12%;
-    grid-template-rows: 200% 200% 200% 200% 200%;
+    grid-template-rows: 150px 150px 150px 150px 150px;
     gap: 5% 5%;
     width: 100%;
-}
-
-.square{
-    border: none;
 }
 
 .facebook{

@@ -5,15 +5,13 @@ const score = document.querySelector('#score')
 
 let result = 0
 let hitPosition
-// let currentTime = 60
-// let timeId = null
 
 function randomSquare() {
     squares.forEach(square => {
         square.classList.remove('architecture')
     })
 
-    let randomSquare = squares[Math.floor(Math.random() *57)]
+    let randomSquare = squares[Math.floor(Math.random() *50)]
     randomSquare.classList.add('architecture')
 
     hitPosition = randomSquare.id
@@ -34,17 +32,3 @@ function moveArchitecture() {
 }
 
 moveArchitecture()
-
-// function countDown() {
-//     currentTime--
-//     timeLeft.textContent = currentTime
-   
-//     if (currentTime == 0) {
-//       clearInterval(countDownTimerId)
-//       clearInterval(timerId)
-//       alert('GAME OVER! Your final score is ' + result)
-//     }
-   
-//    }
-   
-// let countDownTimerId = setInterval(countDown, 1000)

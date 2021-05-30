@@ -3,16 +3,23 @@
     list-style: none;
     padding: 0;
     margin-top: 7%;
-    margin-left: 20%;
+    margin-left: 15%;
     display: grid;
     grid-template-columns: 20% 20% 20%;
     grid-template-rows: 150px 150px 150px;
-    gap: 3% 1%;
+    gap: 3% 5%;
     width: 100%;
 }
 
+.square{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 5%;
+}
+
 .structure{
-    background-color: lightslategrey;
+    background-color: green;
     cursor: pointer;
 }
 

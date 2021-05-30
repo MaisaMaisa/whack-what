@@ -42,7 +42,7 @@ function countDown() {
     if (currentTime == 0) {
       clearInterval(countDownTimerId)
       clearInterval(timerId)
-      alert('Here in the studio, we hope you killed none of the sea creatures. But if you managed, you killed ' + result + ' of them.')
+      alert('Here in the office, we hope that you killed none of the sea creatures. But if you managed, you killed ' + result + ' of them.')
     }
    
    }
