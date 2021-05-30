@@ -1,21 +1,15 @@
 .grid{
-    color: black;
-    list-style: none;
-    padding: 0;
-    margin-top: 7%;
     margin-left: 15%;
-    display: grid;
     grid-template-columns: 20% 20% 20%;
     grid-template-rows: 150px 150px 150px;
     gap: 3% 5%;
-    width: 100%;
 }
 
 .square{
+    padding: 5%;
     font-size: 20px;
     background-color: red;
     color: white;
-    padding: 5%;
 }
 
 .structure{

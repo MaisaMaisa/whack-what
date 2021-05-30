@@ -1,13 +1,11 @@
 .grid{
-    color: black;
-    padding: 0;
+    display: inline-flex;
+
     margin-top: 20%;
     margin-left: 1%;
-    display: inline-flex;
+    
     grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20%;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
-    gap: 3% 1%;
-    width: 100%;
 }
 
 .square{

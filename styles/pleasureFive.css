@@ -1,14 +1,6 @@
 .grid{
-    color: black;
-    list-style: none;
-    padding: 0;
-    margin-top: 7%;
-    margin-left: 20%;
-    display: grid;
     grid-template-columns: 20% 20% 20%;
     grid-template-rows: 150px 150px 150px;
-    gap: 3% 1%;
-    width: 100%;
 }
 
 .square{
@@ -17,11 +9,11 @@
 }
 
 .creature{
-    cursor: pointer;
-    z-index: 2;
-    color: white;
-    font-size: 50px;
     padding: 5%;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    z-index: 2;
 }
 
 

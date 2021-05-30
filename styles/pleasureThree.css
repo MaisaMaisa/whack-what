@@ -1,14 +1,9 @@
 .grid{
-    color: black;
-    list-style: none;
-    padding: 0;
-    margin-left: 20%;
     margin-top: 5%;
-    display: grid;
+    margin-left: 20%;
+
     grid-template-columns: 20% 20% 20%;
     grid-template-rows: 150px 150px 150px;
-    gap: 3% 1%;
-    width: 100%;
 }
 
 .square{
@@ -19,7 +14,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;    
     cursor: pointer;
-    color: black;
+    color: red;
     font-size: 120px;
 }
 
