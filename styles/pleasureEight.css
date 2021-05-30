@@ -16,5 +16,18 @@
     font-size: 30px;
 }
 
+@media (max-width: 812px){ 
+    .grid{
+        margin-left: 0;
+        width: 100%;
+
+        grid-template-rows: 100px 100px 100px;
+    }
+
+    .opportunity{
+        font-size: 100%;
+    }
+}
+
 
 

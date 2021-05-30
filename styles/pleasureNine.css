@@ -17,6 +17,18 @@
     cursor: pointer;
 }
 
+@media (max-width: 812px){ 
+    .grid{
+        margin-left: 0;
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 150px 150px 150px;
+    }
+
+    .square{
+        padding: 5%;
+        font-size: 13px;
+    }
+}
 
 
 

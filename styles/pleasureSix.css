@@ -15,7 +15,13 @@
     cursor: pointer;
 }
 
-
+@media (max-width: 812px){ 
+    .grid{
+        margin-left: 3%;
+        grid-template-columns: 17% 17% 17% 17% 17%;
+        grid-template-rows: 70px 70px 70px 70px 70px;
+    }
+}
 
 
 

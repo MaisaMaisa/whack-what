@@ -18,3 +18,10 @@
     font-size: 120px;
 }
 
+@media (max-width: 812px){ 
+    .grid{
+        margin-top: 30%;
+        margin-left: 0%;
+    }
+}
+

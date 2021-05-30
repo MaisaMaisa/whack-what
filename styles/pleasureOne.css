@@ -12,5 +12,15 @@
     background-size: 80% 100%;
 }
 
+@media (max-width: 812px){ 
+    .grid{
+        margin-top: 30%;
+        
+        width: 80%;
 
+        grid-template-columns: 25% 25% 25% 25% 25%;
+        grid-template-rows: 100px 100px 100px 100px 10px;
+
+    }
+}
 

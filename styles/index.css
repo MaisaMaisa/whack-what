@@ -84,3 +84,18 @@ footer{
 
     color: black;
 }
+
+@media (max-width: 812px){ 
+    *{
+        font-size: 15px;
+    }
+
+    .display-flex{
+        display: inline;
+    }
+
+    .grid{
+        margin-top: 30%;
+        z-index: -1;
+    }
+}
